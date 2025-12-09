@@ -1,10 +1,10 @@
  package com.selenium;
 
-public class Student implements DailySession{
+public class Student {
 
 	private Attendance attendance;
 	
-	@Override
+
 	public void attendLesson() {
 		
 		System.out.println("Student attend the lesson...");
